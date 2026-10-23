@@ -1,26 +1,60 @@
-## Madan Kumar S — Embedded Systems (ECE '28)
+<h1 align="center">Hi, I'm Madan 👋</h1>
+<h3 align="center">I write firmware that makes small chips do real work.</h3>
 
-3rd-year Electronics & Communication Engineering student (VTU, graduating 2028), building firmware on **ARM Cortex-M (STM32)** and **ESP32**.
-Looking for **embedded / firmware internships** — Bangalore or remote India.
+<p align="center">
+  ECE student (VTU, 2028) · STM32 & ESP32 · Embedded C<br>
+  Looking for <b>embedded / firmware internships</b> — Bangalore or remote India
+</p>
 
-### What I work with
-- **Languages:** Embedded C, C++ (Arduino/ESP-IDF), Python (tooling & test scripts)
-- **MCUs:** STM32F103 (HAL, ADC, GPIO, timers), ESP32
-- **Tools:** STM32CubeIDE / CubeMX, Proteus, Make, GitHub Actions CI for firmware builds
-- **Currently learning:** FreeRTOS, Linux device basics, host-side unit testing for firmware
+<p align="center">
+  <a href="https://www.linkedin.com/in/madankumar-s-3537b232a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:madans0316@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-### Featured project
-**[STM32-Temperature-Detection](https://github.com/madankumar16/STM32-Temperature-Detection)** — STM32F103C8T6 + LM35 temperature monitor
-- ADC sampling with averaging and alarm hysteresis (in review: [PR #4](https://github.com/madankumar16/STM32-Temperature-Detection/pull/4))
-- Sensor-fault detection (open/short LM35) with fail-safe LED + buzzer
-- Modular drivers (`ADC`, `LM35`, `LCD`, `LED`, `Buzzer`), CI compile checks on every push
+---
 
-### Other work
-| Project | What it is |
+### 🔧 What I build
+
+- **Firmware for microcontrollers** — reading sensors, driving displays, raising alarms
+- **Drivers that stay clean** — one small module per part (ADC, sensor, LCD, buzzer)
+- **Tools that help debug hardware** — Python scripts that read logs and explain faults
+
+### 🛠️ My toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white">
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white">
+  <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+</p>
+
+**Learning now:** FreeRTOS · Linux basics · unit testing for firmware
+
+---
+
+### ⭐ Best project — [STM32 Temperature Monitor](https://github.com/madankumar16/STM32-Temperature-Detection)
+
+An STM32 board reads an LM35 temperature sensor, shows it on an LCD, and sounds an alarm when it gets too hot.
+
+- ✅ Live temperature on a 16x2 LCD
+- ✅ LED + buzzer alarm above 50 °C
+- ✅ Knows when the sensor breaks — a loose or shorted wire shows "SENSOR FAULT" and triggers the alarm
+- ✅ Every push is compile-checked for ARM with GitHub Actions
+
+<!-- Add a photo or short GIF of the real board here. Hardware pictures get the most attention. -->
+
+### 📂 More work
+
+| Project | What it does |
 |---|---|
-| [LLM-Embedded-Diagnostics](https://github.com/madankumar16/LLM-Embedded-Diagnostics) | Python layer that explains sensor-fault logs from the STM32/ESP32 monitor |
-| [food-product-scanner](https://github.com/madankumar16/food-product-scanner) | Barcode/label scanner — web + Flutter app ([live](https://fopack-scanner.vercel.app)) |
-| [india-signal-network](https://github.com/madankumar16/india-signal-network) | Internet-outage signal dashboard for India ([live](https://india-signal-network.vercel.app)) |
+| [LLM-Embedded-Diagnostics](https://github.com/madankumar16/LLM-Embedded-Diagnostics) | Reads fault logs from my STM32/ESP32 boards and explains them in plain English |
+| [food-product-scanner](https://github.com/madankumar16/food-product-scanner) | Scan a food barcode or label to see what's inside — web + phone app |
+| [india-signal-network](https://github.com/madankumar16/india-signal-network) | Live dashboard showing internet outages across India |
 
-### Contact
-Open to internship conversations — reach me via GitHub or LinkedIn.
+---
+
+<p align="center"><i>Building one board at a time. Happy to talk firmware, sensors, or internships!</i></p>
